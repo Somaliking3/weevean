@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Weevean
 
-## Getting Started
+Open-source team chat platform with AI-powered assistance, built for modern collaboration.
 
-First, run the development server:
+## What is Weevean?
+
+Weevean is a self-hosted Slack alternative designed for teams who want control over their data without sacrificing modern features. Multi-tenant workspaces, AI assistance, real-time messaging, and developer-friendly tools make it ideal for technical and non-technical teams alike.
+
+## Core Features
+
+- Multi-tenant workspaces with channel organization
+- Direct messaging and message threading
+- AI-powered context assistant and smart summaries
+- Rich markdown with code syntax highlighting
+- Emoji reactions and workspace invites
+- Self-hosted with full data control
+
+## Tech Stack
+
+Built with modern, production-ready technologies:
+
+- **Frontend**: Next.js 16, React 19, TypeScript, Tailwind CSS v4
+- **Backend**: Next.js API Routes, Neon Postgres
+- **Auth**: Supabase Auth with Row Level Security
+- **AI**: Vercel AI SDK (multi-provider support)
+- **Deploy**: Vercel or self-hosted
+
+## Quick Start
 
 ```bash
+# Clone and install
+git clone https://github.com/emmaccen/weevean.git
+cd weevean
+npm install
+
+# Configure environment variables
+cp .env.example .env.local
+# Add your Neon and Supabase credentials
+
+# Run migrations and start
+npm run db:migrate
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit `http://localhost:3000`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Documentation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Architecture](docs/ARCHITECTURE.md) - System design and technical decisions
+- [Requirements](docs/REQUIREMENTS.md) - Features and roadmap
+- [Tech Stack](docs/TECHSTACK.md) - Technology choices and rationale
+- [Contributing](docs/CONTRIBUTING.md) - Development guidelines
+- [Landing Page Brief](docs/briefs/LANDING_PAGE_BRIEF.md) - Marketing page design spec
 
-## Learn More
+## Roadmap
 
-To learn more about Next.js, take a look at the following resources:
+**Current Version** (v0.1.0)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Multi-tenant workspaces and channels
+- Real-time messaging with threading
+- AI assistant with conversation context
+- Markdown and code highlighting
+- Direct messaging
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Coming Soon**
 
-## Deploy on Vercel
+- In-browser Python/JavaScript code execution
+- AI code analysis and debugging assistance
+- Advanced search with semantic understanding
+- GitHub/GitLab integration
+- Screen recording
+- Voice/video calling
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+See [REQUIREMENTS.md](docs/REQUIREMENTS.md) for full roadmap.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contributing
+
+We welcome contributions! See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for:
+
+- Development setup
+- Code standards and style guide
+- Commit conventions
+- PR process
+
+## License
+
+MIT License - see [LICENSE](/LICENSE)
+
+Open source and free forever. Use it, modify it, deploy it anywhere.
+
+## Support
+
+- **Documentation**: [docs/](./docs/)
+- **Issues**: [GitHub Issues](https://github.com/emmaccen/weevean/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/emmaccen/weevean/discussions)
+
+---
+
+Built with Next.js, Supabase, Neon, Tailwind CSS, and the Vercel AI SDK.
