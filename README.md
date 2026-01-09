@@ -1,5 +1,7 @@
 # Weevean
 
+![Weevean](public/weevean-readme.png)
+
 Open-source team chat platform with AI-powered assistance, built for modern collaboration.
 
 ## What is Weevean?
