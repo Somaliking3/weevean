@@ -33,15 +33,15 @@ Built with modern, production-ready technologies:
 # Clone and install
 git clone https://github.com/emmaccen/weevean.git
 cd weevean
-npm install
+pnpm install
 
 # Configure environment variables
 cp .env.example .env.local
 # Add your Neon and Supabase credentials
 
 # Run migrations and start
-npm run db:migrate
-npm run dev
+pnpm run db:migrate
+pnpm run dev
 ```
 
 Visit `http://localhost:3000`
@@ -95,6 +95,7 @@ Open source and free forever. Use it, modify it, deploy it anywhere.
 - **Documentation**: [docs/](./docs/)
 - **Issues**: [GitHub Issues](https://github.com/emmaccen/weevean/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/emmaccen/weevean/discussions)
+- **Slack Community**: [Slack Community #Weevean-community](https://magnamentes.slack.com/archives/C0A8SH12LUQ)
 
 ---
 
